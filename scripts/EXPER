@@ -1,0 +1,30 @@
+full01 gaussian obserror
+full02 gamma obserror
+full03 lognormal obserror
+full04 lognormal obserror, test inflation oestd
+
+full10 analysis 100 member, full obs (oestd 0.3), loc 0040-200-100-080, iter 10000
+
+l4for10 forecast 100 member, l4for obs (oestd 0.3), loc 0040-200-100-080, iter 10000
+l4for11 forecast 40 member, l4for obs (oestd 0.3), loc 0040-200-100-080, iter 20000
+
+l4for20 forecast 100 member, l4for obs (oestd 0.3), loc 0040-200-050-080, iter 10000
+
+l4for30 forecast 40 member, l4for obs (oestd 0.3), loc 0040-200-075-080, iter 10000
+l1for30 forecast 40 member, l1for obs (oestd 0.3), loc 0040-200-075-080, iter 10000
+full30  analysis 40 member, full obs (oestd 0.3), loc 0040-200-075-080, iter 10000
+
+kl4for01 forecast 40 member, l4for obs (oestd 0.3), loc 2.0 7.5
+kl4for02 forecast 40 member, l4for obs (oestd 0.3), loc 2.0 10.
+kl4for03 forecast 40 member, l4for obs (oestd 0.3), loc 4.0 8.0
+
+kl4for04 forecast 40 member, l4for obs (oestd 0.3), loc 4.5 7.5
+kl1for04 forecast 40 member, l1for obs (oestd 0.3), loc 4.5 7.5
+kfull04  analysis 40 member, full obs (oestd 0.3), loc 4.5 7.5
+kodd04   analysis 40 member, odd obs (oestd 0.3), loc 4.5 7.5
+keven04  analysis 40 member, even obs (oestd 0.3), loc 4.5 7.5
+
+full31  analysis 40 member, full obs (oestd 0.3), loc 0040-200-075-080, iter 30000
+odd31   analysis 40 member, odd obs (oestd 0.3), loc 0040-200-075-080, iter 30000
+even31  analysis 40 member, even obs (oestd 0.3), loc 0040-200-075-080, iter 30000
+l4for31 forecast 40 member, l4for obs (oestd 0.3), loc 0040-200-075-080, iter 30000

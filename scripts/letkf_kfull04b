@@ -1,0 +1,1527 @@
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ ------------------------------
+ --------- lroa mode ----------
+ ---- action number  2 --------
+ ------------------------------
+ flaganlxyo = 1
+   Xa = tmpxa.cpak
+   Xf = zero.cpak
+   (Sf) = ANAENS0040.cpak.bas
+   (Sa) = kfull04bSMPANAENS0040.cpak.bas
+ flagcovyo =  3
+   Ot = Obs_full/obs_ana_#.cobs
+   Hox = Obs_full/obs_ana_#.cobs
+ flagrefyo =  1
+   (HoxXf) =zero.cpak
+ flagincovyoz =  1
+   (HoxSf) = ANAENS0040.cpak.bas
+ flagbicvooz =  0
+ flaggloloc =  3
+   Part = part_spat.cpak
+   Wz = zone_spat.czon
+  textdisable=TTTFT
+ ---- Algorithm number  2 ----
+  innov = { Ot - (HoxXf) }
+  gamma = [ I + (HoxSf) Wz.Rd Wz.(HoxSf) ]
+  coefr = gamma Wz.Rd Wz.innov
+  Xa = Xf + (Sf).coefr
+  (Sa) = (Sf).gamma
+ ------------------------------
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ Warning: input directory is an ensemble
+ --> Load and compute the innovation vector...
+ Zone=         150 Size=        8818 Proc=         149
+ Zone=         299 Size=       11184 Proc=         138
+ Zone=         448 Size=        9131 Proc=         127
+ Zone=         597 Size=        9329 Proc=         116
+ Zone=         895 Size=       12864 Proc=          94
+ Zone=        1044 Size=        7921 Proc=          83
+ Zone=        1193 Size=        9254 Proc=          72
+ Zone=         746 Size=       14389 Proc=         105
+ Zone=        1342 Size=        8924 Proc=          61
+ Zone=        1491 Size=        6992 Proc=          50
+ --> Computation of ROA coefficients, nproc=         160
+   Computing for zones in the range:           1      148800
+ Zone=           1 Size=        2929 Proc=           0
+ Zone=        2087 Size=        9582 Proc=           6
+ Zone=        1938 Size=       12467 Proc=          17
+ Zone=        2236 Size=       10917 Proc=         155
+ Zone=        1640 Size=        4038 Proc=          39
+ Zone=        1789 Size=       10891 Proc=          28
+ Zone=        2683 Size=        7912 Proc=         122
+ Zone=        2385 Size=       15846 Proc=         144
+ Zone=        2534 Size=       14120 Proc=         133
+ Zone=        3279 Size=        5075 Proc=          78
+ Zone=        2981 Size=        9623 Proc=         100
+ Zone=        3130 Size=        6669 Proc=          89
+ Zone=        3726 Size=        9383 Proc=          45
+ Zone=        2832 Size=       10390 Proc=         111
+ Zone=        3577 Size=       13804 Proc=          56
+ Zone=        3428 Size=       12876 Proc=          67
+ Zone=        4322 Size=        7734 Proc=           1
+ Zone=        3875 Size=       12595 Proc=          34
+ Zone=        4173 Size=       15208 Proc=          12
+ Zone=        4918 Size=        6137 Proc=         117
+ Zone=        4769 Size=        6629 Proc=         128
+ Zone=        4471 Size=       10968 Proc=         150
+ Zone=        4024 Size=       16663 Proc=          23
+ Zone=        4620 Size=        9690 Proc=         139
+ Zone=        5365 Size=        9166 Proc=          84
+ Zone=        5961 Size=        7013 Proc=          40
+ Zone=        5216 Size=       14210 Proc=          95
+ Zone=        5514 Size=       13569 Proc=          73
+ Zone=        5812 Size=       14640 Proc=          51
+ Zone=        5067 Size=       13552 Proc=         106
+ Zone=        5663 Size=       17057 Proc=          62
+ Zone=        6557 Size=        7602 Proc=         156
+ Zone=        6408 Size=        5829 Proc=           7
+ Zone=        7004 Size=        8584 Proc=         123
+ Zone=        6110 Size=       11535 Proc=          29
+ Zone=        6259 Size=        9507 Proc=          18
+ Zone=        7600 Size=        7771 Proc=          79
+ Zone=        7153 Size=       14964 Proc=         112
+ Zone=        6855 Size=       15532 Proc=         134
+ Zone=        6706 Size=       15083 Proc=         145
+ Zone=        7451 Size=       14412 Proc=          90
+ Zone=        8643 Size=        8496 Proc=           2
+ Zone=        8196 Size=        9457 Proc=          35
+ Zone=        8047 Size=        5945 Proc=          46
+ Zone=        9239 Size=        8869 Proc=         118
+ Zone=        7898 Size=        9140 Proc=          57
+ Zone=        7749 Size=       11451 Proc=          68
+ Zone=        8345 Size=       16735 Proc=          24
+ Zone=        9090 Size=       14631 Proc=         129
+ Zone=        8494 Size=       16728 Proc=          13
+ Zone=        8792 Size=       17425 Proc=         151
+ Zone=        9686 Size=        6507 Proc=          85
+ Zone=        9835 Size=       10860 Proc=          74
+ Zone=       10282 Size=        8209 Proc=          41
+ Zone=        8941 Size=       18393 Proc=         140
+ Zone=        7302 Size=       17005 Proc=         101
+ Zone=       10878 Size=        8843 Proc=         157
+ Zone=        9537 Size=        9225 Proc=          96
+ Zone=        9388 Size=       12571 Proc=         107
+ Zone=       11325 Size=        6723 Proc=         124
+ Zone=       10729 Size=       14073 Proc=           8
+ Zone=       11921 Size=        7828 Proc=          80
+ Zone=       10133 Size=       17256 Proc=          52
+ Zone=       10431 Size=       17909 Proc=          30
+ Zone=        9984 Size=       18065 Proc=          63
+ Zone=       10580 Size=       18644 Proc=          19
+ Zone=       12517 Size=        9788 Proc=          36
+ Zone=       12964 Size=        6712 Proc=           3
+ Zone=       11176 Size=        9235 Proc=         135
+ Zone=       12368 Size=       13066 Proc=          47
+ Zone=       11474 Size=       12586 Proc=         113
+ Zone=       11027 Size=       11896 Proc=         146
+ Zone=       13560 Size=       10596 Proc=         119
+ Zone=       11623 Size=       19553 Proc=         102
+ Zone=       11772 Size=       17529 Proc=          91
+ Zone=       12070 Size=       20225 Proc=          69
+ Zone=       14007 Size=       11699 Proc=          86
+ Zone=       14603 Size=        6593 Proc=          42
+ Zone=       13113 Size=       14347 Proc=         152
+ Zone=       12219 Size=       19463 Proc=          58
+ Zone=       13411 Size=       16164 Proc=         130
+ Zone=       15199 Size=       11914 Proc=         158
+ Zone=       12815 Size=        9946 Proc=          14
+ Zone=       12666 Size=       12167 Proc=          25
+ Zone=       16242 Size=        7130 Proc=          81
+ Zone=       13262 Size=       20483 Proc=         141
+ Zone=       15646 Size=       11144 Proc=         125
+ Zone=       14156 Size=        9854 Proc=          75
+ Zone=       13709 Size=       20652 Proc=         108
+ Zone=       13858 Size=       19360 Proc=          97
+ Zone=       15050 Size=       16320 Proc=           9
+ Zone=       16838 Size=       13298 Proc=          37
+ Zone=       14454 Size=       10310 Proc=          53
+ Zone=       15795 Size=       10423 Proc=         114
+ Zone=       17881 Size=        7539 Proc=         120
+ Zone=       14752 Size=       15719 Proc=          31
+ Zone=       14305 Size=       11526 Proc=          64
+ Zone=       17285 Size=       11005 Proc=           4
+ Zone=       14901 Size=       21029 Proc=          20
+ Zone=       15497 Size=       20295 Proc=         136
+ Zone=       15348 Size=       21981 Proc=         147
+ Zone=       16093 Size=       12183 Proc=          92
+ Zone=       16689 Size=       16292 Proc=          48
+ Zone=       16391 Size=       18447 Proc=          70
+ Zone=       18477 Size=       15631 Proc=          76
+ Zone=       17434 Size=       11087 Proc=         153
+ Zone=       19520 Size=        9812 Proc=         159
+ Zone=       16540 Size=       22131 Proc=          59
+ Zone=       18924 Size=       10345 Proc=          43
+ Zone=       20563 Size=        9908 Proc=          82
+ Zone=       17732 Size=       13054 Proc=         131
+ Zone=       17136 Size=       20644 Proc=          15
+ Zone=       19967 Size=       16293 Proc=         126
+ Zone=       21159 Size=       11623 Proc=          38
+ Zone=       18328 Size=       16953 Proc=          87
+ Zone=       16987 Size=       23337 Proc=          26
+ Zone=       20116 Size=       17474 Proc=         115
+ Zone=       18030 Size=       21244 Proc=         109
+ Zone=       22202 Size=        9075 Proc=         121
+ Zone=       17583 Size=       11276 Proc=         142
+ Zone=       15944 Size=       11139 Proc=         103
+ Zone=       18179 Size=       23866 Proc=          98
+ Zone=       19073 Size=       11912 Proc=          32
+ Zone=       19371 Size=       13860 Proc=          10
+ Zone=       18775 Size=       21393 Proc=          54
+ Zone=       21606 Size=       16308 Proc=           5
+ Zone=       19222 Size=       12616 Proc=          21
+ Zone=       21010 Size=       14628 Proc=          49
+ Zone=       18626 Size=       24854 Proc=          65
+ Zone=       19818 Size=       23891 Proc=         137
+ Zone=       21755 Size=       19132 Proc=         154
+ Zone=       22798 Size=       14194 Proc=          77
+ Zone=       19669 Size=       24258 Proc=         148
+ Zone=       20712 Size=       12858 Proc=          71
+ Zone=       20414 Size=       21346 Proc=          93
+ Zone=       23841 Size=        8035 Proc=           0
+ Zone=       22649 Size=       14938 Proc=          88
+ Zone=       23245 Size=       15938 Proc=          44
+ Zone=       24884 Size=       14622 Proc=          83
+ Zone=       20265 Size=       26060 Proc=         104
+ Zone=       24437 Size=       15877 Proc=         116
+ Zone=       20861 Size=       13941 Proc=          60
+ Zone=       23394 Size=       21224 Proc=          33
+ Zone=       24288 Size=       14595 Proc=         127
+ Zone=       21457 Size=       25787 Proc=          16
+ Zone=       26523 Size=       13821 Proc=         122
+ Zone=       25480 Size=        8668 Proc=          39
+ Zone=       22053 Size=       21622 Proc=         132
+ Zone=       22351 Size=       12488 Proc=         110
+ Zone=       21308 Size=       27225 Proc=          27
+ Zone=       21904 Size=       26947 Proc=         143
+ Zone=       27119 Size=        9068 Proc=          78
+ Zone=       28162 Size=       13222 Proc=           1
+ Zone=       25927 Size=       14243 Proc=           6
+ Zone=       22500 Size=       15928 Proc=          99
+ Zone=       23692 Size=       20449 Proc=          11
+ Zone=       26076 Size=       17972 Proc=         155
+ Zone=       23096 Size=       25800 Proc=          55
+ Zone=       22947 Size=       28279 Proc=          66
+ Zone=       25033 Size=       22612 Proc=          72
+ Zone=       29801 Size=       12607 Proc=          40
+ Zone=       23543 Size=       26376 Proc=          22
+ Zone=       27566 Size=       14322 Proc=          45
+ Zone=       23990 Size=       12853 Proc=         149
+ Zone=       24139 Size=       16526 Proc=         138
+ Zone=       25331 Size=       18563 Proc=          50
+ Zone=       28758 Size=        8801 Proc=         117
+ Zone=       29205 Size=       13827 Proc=          84
+ Zone=       24735 Size=       26400 Proc=          94
+ Zone=       30844 Size=       13756 Proc=         123
+ Zone=       26970 Size=       17409 Proc=          89
+ Zone=       27715 Size=       20157 Proc=          34
+ Zone=       24586 Size=       28604 Proc=         105
+ Zone=       25182 Size=       25405 Proc=          61
+ Zone=       31440 Size=       15082 Proc=          79
+ Zone=       28609 Size=       15521 Proc=         128
+ Zone=       25778 Size=       18065 Proc=          17
+ Zone=       26374 Size=       26192 Proc=         133
+ Zone=       30397 Size=        8872 Proc=         156
+ Zone=       26672 Size=       24037 Proc=         111
+ Zone=       32483 Size=       13709 Proc=           2
+ Zone=       25629 Size=       13793 Proc=          28
+ Zone=       30248 Size=       14163 Proc=           7
+ Zone=       26225 Size=       28135 Proc=         144
+ Zone=       33079 Size=       16472 Proc=         118
+ Zone=       29354 Size=       21327 Proc=          73
+ Zone=       26821 Size=       24535 Proc=         100
+ Zone=       34122 Size=       12841 Proc=          41
+ Zone=       27417 Size=       18822 Proc=          56
+ Zone=       28013 Size=       25991 Proc=          12
+ Zone=       28311 Size=       25591 Proc=         150
+ Zone=       35761 Size=       11764 Proc=          80
+ Zone=       31887 Size=       12503 Proc=          46
+ Zone=       27268 Size=       15301 Proc=          67
+ Zone=       32036 Size=        9951 Proc=          35
+ Zone=       33526 Size=       11370 Proc=          85
+ Zone=       27864 Size=       28775 Proc=          23
+ Zone=       28460 Size=       23487 Proc=         139
+ Zone=       29652 Size=       25894 Proc=          51
+ Zone=       30993 Size=       23942 Proc=         112
+ Zone=       29056 Size=       19848 Proc=          95
+ Zone=       34718 Size=       18499 Proc=         157
+ Zone=       35165 Size=       10203 Proc=         124
+ Zone=       29950 Size=       25494 Proc=          29
+ Zone=       31291 Size=       24291 Proc=          90
+ Zone=       36804 Size=        7812 Proc=           3
+ Zone=       29503 Size=       28029 Proc=          62
+ Zone=       28907 Size=       16840 Proc=         106
+ Zone=       37400 Size=       15006 Proc=         119
+ Zone=       33675 Size=       11293 Proc=          74
+ Zone=       30695 Size=       20812 Proc=         134
+ Zone=       32930 Size=       24182 Proc=         129
+ Zone=       30099 Size=       22850 Proc=          18
+ Zone=       36357 Size=       18267 Proc=          36
+ Zone=       38443 Size=        7681 Proc=          42
+ Zone=       40082 Size=        7503 Proc=          81
+ Zone=       30546 Size=       17970 Proc=         145
+ Zone=       32632 Size=       25821 Proc=         151
+ Zone=       34569 Size=       23296 Proc=           8
+ Zone=       39039 Size=       17126 Proc=         158
+ Zone=       31738 Size=       21973 Proc=          57
+ Zone=       36208 Size=       21140 Proc=          47
+ Zone=       41721 Size=        7479 Proc=         120
+ Zone=       32334 Size=       22177 Proc=          13
+ Zone=       31589 Size=       26710 Proc=          68
+ Zone=       35314 Size=       13285 Proc=         113
+ Zone=       37847 Size=       20332 Proc=          86
+ Zone=       32185 Size=       20173 Proc=          24
+ Zone=       31142 Size=       28806 Proc=         101
+ Zone=       32781 Size=       29569 Proc=         140
+ Zone=       34271 Size=       28251 Proc=          30
+ Zone=       39486 Size=       19037 Proc=         125
+ Zone=       40678 Size=       18781 Proc=          37
+ Zone=       33377 Size=       22134 Proc=          96
+ Zone=       33973 Size=       24209 Proc=          52
+ Zone=       37996 Size=       19017 Proc=          75
+ Zone=       33228 Size=       27654 Proc=         107
+ Zone=       41125 Size=       17754 Proc=           4
+ Zone=       33824 Size=       21609 Proc=          63
+ Zone=       36953 Size=       14556 Proc=         152
+ Zone=       35612 Size=       23197 Proc=          91
+ Zone=       34420 Size=       29786 Proc=          19
+ Zone=       35016 Size=       20707 Proc=         135
+ Zone=       43360 Size=        9413 Proc=         159
+ Zone=       44403 Size=       15170 Proc=          82
+ Zone=       37251 Size=       23089 Proc=         130
+ Zone=       39635 Size=       19943 Proc=         114
+ Zone=       46042 Size=       13287 Proc=         121
+ Zone=       42764 Size=       16701 Proc=          43
+ Zone=       35910 Size=       28836 Proc=          69
+ Zone=       34867 Size=       26665 Proc=         146
+ Zone=       42317 Size=       20798 Proc=          76
+ Zone=       35463 Size=       22538 Proc=         102
+ Zone=       38890 Size=       22787 Proc=           9
+ Zone=       44999 Size=       11653 Proc=          38
+ Zone=       36059 Size=       29399 Proc=          58
+ Zone=       36655 Size=       19032 Proc=          14
+ Zone=       38592 Size=       17438 Proc=          31
+ Zone=       40529 Size=       21157 Proc=          48
+ Zone=       36506 Size=       24606 Proc=          25
+ Zone=       43807 Size=       20018 Proc=         126
+ Zone=       37102 Size=       23117 Proc=         141
+ Zone=       47681 Size=       11190 Proc=           0
+ Zone=       41274 Size=       20470 Proc=         153
+ Zone=       37549 Size=       30107 Proc=         108
+ Zone=       37698 Size=       28476 Proc=          97
+ Zone=       38294 Size=       17874 Proc=          53
+ Zone=       43956 Size=       23109 Proc=         115
+ Zone=       42168 Size=       21070 Proc=          87
+ Zone=       45446 Size=       19451 Proc=           5
+ Zone=       46638 Size=       13875 Proc=          77
+ Zone=       39337 Size=       29066 Proc=         136
+ Zone=       38741 Size=       24877 Proc=          20
+ Zone=       40231 Size=       19625 Proc=          70
+ Zone=       48724 Size=       15715 Proc=          83
+ Zone=       38145 Size=       23286 Proc=          64
+ Zone=       50363 Size=       15385 Proc=         122
+ Zone=       39933 Size=       16229 Proc=          92
+ Zone=       52002 Size=       14192 Proc=           1
+ Zone=       49320 Size=       13777 Proc=          39
+ Zone=       47085 Size=       16565 Proc=          44
+ Zone=       41572 Size=       15512 Proc=         131
+ Zone=       39188 Size=       32824 Proc=         147
+ Zone=       42913 Size=       21922 Proc=          32
+ Zone=       53641 Size=       13630 Proc=          40
+ Zone=       48277 Size=       15305 Proc=         116
+ Zone=       45595 Size=       26076 Proc=         154
+ Zone=       40976 Size=       29684 Proc=          15
+ Zone=       40380 Size=       26504 Proc=          59
+ Zone=       43211 Size=       13884 Proc=          10
+ Zone=       50959 Size=       13248 Proc=          78
+ Zone=       41870 Size=       21749 Proc=         109
+ Zone=       44850 Size=       13976 Proc=          49
+ Zone=       46489 Size=       14005 Proc=          88
+ Zone=       48128 Size=       13463 Proc=         127
+ Zone=       40827 Size=       32694 Proc=          26
+ Zone=       39784 Size=       22292 Proc=         103
+ Zone=       42019 Size=       27708 Proc=          98
+ Zone=       41423 Size=       21319 Proc=         142
+ Zone=       42615 Size=       30977 Proc=          54
+ Zone=       49767 Size=       14173 Proc=           6
+ Zone=       44552 Size=       22500 Proc=          71
+ Zone=       47234 Size=       27316 Proc=          33
+ Zone=       51406 Size=       14379 Proc=          45
+ Zone=       54684 Size=       14015 Proc=         123
+ Zone=       43062 Size=       21181 Proc=          21
+ Zone=       43658 Size=       30753 Proc=         137
+ Zone=       53045 Size=       13905 Proc=          84
+ Zone=       52598 Size=       13630 Proc=         117
+ Zone=       49916 Size=       17328 Proc=         155
+ Zone=       56323 Size=       13769 Proc=           2
+ Zone=       55280 Size=       17120 Proc=          79
+ Zone=       43509 Size=       25709 Proc=         148
+ Zone=       42466 Size=       34633 Proc=          65
+ Zone=       44254 Size=       32224 Proc=          93
+ Zone=       57962 Size=       13948 Proc=          41
+ Zone=       46191 Size=       22305 Proc=         110
+ Zone=       59601 Size=       12801 Proc=          80
+ Zone=       45893 Size=       31777 Proc=         132
+ Zone=       45297 Size=       31959 Proc=          16
+ Zone=       44701 Size=       20451 Proc=          60
+ Zone=       44105 Size=       35329 Proc=         104
+ Zone=       56919 Size=       18834 Proc=         118
+ Zone=       48873 Size=       28859 Proc=          72
+ Zone=       54237 Size=       13664 Proc=         156
+ Zone=       47532 Size=       27470 Proc=          11
+ Zone=       51555 Size=       19610 Proc=          34
+ Zone=       45148 Size=       28877 Proc=          27
+ Zone=       49171 Size=       25233 Proc=          50
+ Zone=       45744 Size=       35556 Proc=         143
+ Zone=       52449 Size=       21765 Proc=         128
+ Zone=       54088 Size=       19878 Proc=           7
+ Zone=       46340 Size=       18522 Proc=          99
+ Zone=       50810 Size=       23676 Proc=          89
+ Zone=       46936 Size=       30483 Proc=          55
+ Zone=       47383 Size=       34132 Proc=          22
+ Zone=       47830 Size=       21073 Proc=         149
+ Zone=       57366 Size=       16318 Proc=          85
+ Zone=       55727 Size=       17491 Proc=          46
+ Zone=       46787 Size=       30959 Proc=          66
+ Zone=       58558 Size=       20810 Proc=         157
+ Zone=       47979 Size=       16746 Proc=         138
+ Zone=       60644 Size=       12507 Proc=           3
+ Zone=       59005 Size=       13601 Proc=         124
+ Zone=       61240 Size=       15375 Proc=         119
+ Zone=       62283 Size=       10286 Proc=          42
+ Zone=       55876 Size=       13593 Proc=          35
+ Zone=       53194 Size=       22282 Proc=          73
+ Zone=       63922 Size=        9251 Proc=          81
+ Zone=       48575 Size=       29648 Proc=          94
+ Zone=       50512 Size=       28820 Proc=         111
+ Zone=       65561 Size=        7918 Proc=         120
+ Zone=       50214 Size=       28928 Proc=         133
+ Zone=       49022 Size=       32903 Proc=          61
+ Zone=       49618 Size=       16070 Proc=          17
+ Zone=       48426 Size=       30884 Proc=         105
+ Zone=       62879 Size=       17381 Proc=         158
+ Zone=       60197 Size=       22820 Proc=          36
+ Zone=       49469 Size=       20407 Proc=          28
+ Zone=       52151 Size=       30716 Proc=         150
+ Zone=       54833 Size=       24520 Proc=         112
+ Zone=       57515 Size=       14349 Proc=          74
+ Zone=       51853 Size=       30518 Proc=          12
+ Zone=       50661 Size=       32404 Proc=         100
+ Zone=       51257 Size=       17429 Proc=          56
+ Zone=       50065 Size=       31706 Proc=         144
+ Zone=       53492 Size=       28343 Proc=          51
+ Zone=       56770 Size=       27063 Proc=         129
+ Zone=       64518 Size=       20421 Proc=          37
+ Zone=       55131 Size=       28012 Proc=          90
+ Zone=       58409 Size=       25043 Proc=           8
+ Zone=       60048 Size=       24187 Proc=          47
+ Zone=       69882 Size=       16815 Proc=         121
+ Zone=       63326 Size=       21098 Proc=         125
+ Zone=       61687 Size=       21144 Proc=          86
+ Zone=       68243 Size=       17986 Proc=          82
+ Zone=       52300 Size=       33436 Proc=         139
+ Zone=       52896 Size=       18317 Proc=          95
+ Zone=       64965 Size=       19683 Proc=           4
+ Zone=       51704 Size=       33642 Proc=          23
+ Zone=       67200 Size=        8793 Proc=         159
+ Zone=       51108 Size=       19647 Proc=          67
+ Zone=       53790 Size=       32316 Proc=          29
+ Zone=       66604 Size=       18960 Proc=          43
+ Zone=       59154 Size=       13537 Proc=         113
+ Zone=       54535 Size=       19365 Proc=         134
+ Zone=       61836 Size=       23279 Proc=          75
+ Zone=       56472 Size=       27960 Proc=         151
+ Zone=       71521 Size=       14817 Proc=           0
+ Zone=       68839 Size=        9353 Proc=          38
+ Zone=       53939 Size=       31942 Proc=          18
+ Zone=       53343 Size=       33030 Proc=          62
+ Zone=       52747 Size=       18255 Proc=         106
+ Zone=       66157 Size=       21888 Proc=          76
+ Zone=       56174 Size=       21326 Proc=          13
+ Zone=       55578 Size=       30540 Proc=          57
+ Zone=       63475 Size=       23727 Proc=         114
+ Zone=       54386 Size=       17507 Proc=         145
+ Zone=       58111 Size=       31341 Proc=          30
+ Zone=       55429 Size=       33126 Proc=          68
+ Zone=       75842 Size=       15738 Proc=           1
+ Zone=       60793 Size=       13913 Proc=         152
+ Zone=       74203 Size=       16661 Proc=         122
+ Zone=       54982 Size=       33268 Proc=         101
+ Zone=       57813 Size=       22701 Proc=          52
+ Zone=       67647 Size=       22817 Proc=         126
+ Zone=       61091 Size=       21329 Proc=         130
+ Zone=       56621 Size=       33153 Proc=         140
+ Zone=       57217 Size=       29970 Proc=          96
+ Zone=       73160 Size=       16761 Proc=          39
+ Zone=       77481 Size=       14939 Proc=          40
+ Zone=       72564 Size=       18962 Proc=          83
+ Zone=       56025 Size=       16696 Proc=          24
+ Zone=       62730 Size=       21520 Proc=           9
+ Zone=       69286 Size=       22211 Proc=           5
+ Zone=       70478 Size=       10263 Proc=          77
+ Zone=       59452 Size=       22443 Proc=          91
+ Zone=       64369 Size=       21989 Proc=          48
+ Zone=       67796 Size=       23992 Proc=         115
+ Zone=       66008 Size=       21880 Proc=          87
+ Zone=       70925 Size=       20292 Proc=          44
+ Zone=       58856 Size=       27920 Proc=         135
+ Zone=       57068 Size=       35527 Proc=         107
+ Zone=       58260 Size=       34322 Proc=          19
+ Zone=       65114 Size=       26291 Proc=         153
+ Zone=       74799 Size=       17115 Proc=          78
+ Zone=       57664 Size=       18388 Proc=          63
+ Zone=       59750 Size=       32613 Proc=          69
+ Zone=       62432 Size=       13843 Proc=          31
+ Zone=       72117 Size=       11769 Proc=         116
+ Zone=       59303 Size=       20045 Proc=         102
+ Zone=       60495 Size=       27365 Proc=          14
+ Zone=       58707 Size=       35850 Proc=         146
+ Zone=       59899 Size=       33045 Proc=          58
+ Zone=       80163 Size=       12312 Proc=           2
+ Zone=       78524 Size=       12329 Proc=         123
+ Zone=       62134 Size=       24099 Proc=          53
+ Zone=       79120 Size=       17655 Proc=          79
+ Zone=       83441 Size=       11229 Proc=          80
+ Zone=       69435 Size=       25704 Proc=         154
+ Zone=       81802 Size=       11163 Proc=          41
+ Zone=       60942 Size=       20251 Proc=         141
+ Zone=       61538 Size=       32005 Proc=          97
+ Zone=       61389 Size=       33444 Proc=         108
+ Zone=       66753 Size=       26730 Proc=          32
+ Zone=       76438 Size=       17054 Proc=         117
+ Zone=       60346 Size=       34583 Proc=          25
+ Zone=       71968 Size=       13221 Proc=         127
+ Zone=       76885 Size=       12572 Proc=          84
+ Zone=       64071 Size=       15871 Proc=          70
+ Zone=       73607 Size=       12026 Proc=           6
+ Zone=       75246 Size=       11550 Proc=          45
+ Zone=       65412 Size=       20444 Proc=         131
+ Zone=       63177 Size=       31544 Proc=         136
+ Zone=       70329 Size=       14982 Proc=          88
+ Zone=       62581 Size=       22256 Proc=          20
+ Zone=       67051 Size=       19005 Proc=          10
+ Zone=       68690 Size=       16887 Proc=          49
+ Zone=       63773 Size=       23471 Proc=          92
+ Zone=       80759 Size=       17923 Proc=         118
+ Zone=       73756 Size=       13436 Proc=         155
+ Zone=       71074 Size=       26731 Proc=          33
+ Zone=       61985 Size=       31694 Proc=          64
+ Zone=       64816 Size=       30971 Proc=          15
+ Zone=       63028 Size=       33750 Proc=         147
+ Zone=       78077 Size=       16576 Proc=         156
+ Zone=       65710 Size=       18505 Proc=         109
+ Zone=       64220 Size=       23321 Proc=          59
+ Zone=       89401 Size=        9772 Proc=         120
+ Zone=       68392 Size=       27475 Proc=          71
+ Zone=       87762 Size=       11667 Proc=          81
+ Zone=       85080 Size=       12431 Proc=         119
+ Zone=       86123 Size=       13032 Proc=          42
+ Zone=       84484 Size=       14988 Proc=           3
+ Zone=       66455 Size=       32321 Proc=          54
+ Zone=       75395 Size=       15300 Proc=          34
+ Zone=       64667 Size=       35076 Proc=          26
+ Zone=       65859 Size=       24874 Proc=          98
+ Zone=       82398 Size=       19256 Proc=         157
+ Zone=       63624 Size=       29572 Proc=         103
+ Zone=       82845 Size=       16294 Proc=         124
+ Zone=       65263 Size=       28115 Proc=         142
+ Zone=       81206 Size=       18935 Proc=          85
+ Zone=       77928 Size=       23628 Proc=           7
+ Zone=       67498 Size=       26527 Proc=         137
+ Zone=       72713 Size=       27054 Proc=          72
+ Zone=       66902 Size=       27038 Proc=          21
+ Zone=       68094 Size=       31835 Proc=          93
+ Zone=       76289 Size=       25221 Proc=         128
+ Zone=       70031 Size=       27838 Proc=         110
+ Zone=       79567 Size=       22025 Proc=          46
+ Zone=       86719 Size=       14750 Proc=         158
+ Zone=       79716 Size=       17409 Proc=          35
+ Zone=       67349 Size=       20571 Proc=         148
+ Zone=       69733 Size=       32290 Proc=         132
+ Zone=       66306 Size=       34692 Proc=          65
+ Zone=       71372 Size=       30553 Proc=          11
+ Zone=       74650 Size=       26832 Proc=          89
+ Zone=       73011 Size=       28835 Proc=          50
+ Zone=       84037 Size=       19564 Proc=          36
+ Zone=       69137 Size=       27630 Proc=          16
+ Zone=       93722 Size=       15695 Proc=         121
+ Zone=       68541 Size=       25209 Proc=          60
+ Zone=       77034 Size=       17701 Proc=          73
+ Zone=       67945 Size=       34943 Proc=         104
+ Zone=       92083 Size=       17063 Proc=          82
+ Zone=       88358 Size=       16799 Proc=          37
+ Zone=       91040 Size=        9830 Proc=         159
+ Zone=       95361 Size=       14825 Proc=           0
+ Zone=       68988 Size=       23758 Proc=          27
+ Zone=       74352 Size=       28103 Proc=         111
+ Zone=       70776 Size=       28954 Proc=          55
+ Zone=       69584 Size=       34991 Proc=         143
+ Zone=       70180 Size=       24312 Proc=          99
+ Zone=       81355 Size=       16094 Proc=          74
+ Zone=       88805 Size=       19102 Proc=           4
+ Zone=       87166 Size=       20257 Proc=         125
+ Zone=       71670 Size=       26862 Proc=         149
+ Zone=       90444 Size=       18682 Proc=          43
+ Zone=       71223 Size=       33403 Proc=          22
+ Zone=       92679 Size=        9951 Proc=          38
+ Zone=       71819 Size=       22037 Proc=         138
+ Zone=       85527 Size=       21730 Proc=          86
+ Zone=       72415 Size=       28861 Proc=          94
+ Zone=       83888 Size=       22550 Proc=          47
+ Zone=       78673 Size=       20389 Proc=         112
+ Zone=       70627 Size=       24458 Proc=          66
+ Zone=       74054 Size=       30298 Proc=         133
+ Zone=       82249 Size=       23842 Proc=           8
+ Zone=       80610 Size=       25901 Proc=         129
+ Zone=       99682 Size=       17333 Proc=           1
+ Zone=       85676 Size=       21620 Proc=          75
+ Zone=       73458 Size=       20724 Proc=          17
+ Zone=       75991 Size=       29011 Proc=         150
+ Zone=      101321 Size=       15464 Proc=          40
+ Zone=       72862 Size=       32746 Proc=          61
+ Zone=       89997 Size=       19796 Proc=          76
+ Zone=       73309 Size=       26213 Proc=          28
+ Zone=       98043 Size=       18350 Proc=         122
+ Zone=       97000 Size=       15816 Proc=          39
+ Zone=       75693 Size=       30287 Proc=          12
+ Zone=       77332 Size=       30013 Proc=          51
+ Zone=       78971 Size=       29095 Proc=          90
+ Zone=       82994 Size=       15558 Proc=         113
+ Zone=       72266 Size=       24704 Proc=         105
+ Zone=       75097 Size=       18678 Proc=          56
+ Zone=       74501 Size=       31205 Proc=         100
+ Zone=       96404 Size=       18196 Proc=          83
+ Zone=       94318 Size=       10300 Proc=          77
+ Zone=       73905 Size=       26260 Proc=         144
+ Zone=       87315 Size=       22433 Proc=         114
+ Zone=       77630 Size=       29895 Proc=          29
+ Zone=       80312 Size=       22661 Proc=         151
+ Zone=       76736 Size=       16899 Proc=          95
+ Zone=       98639 Size=       17349 Proc=          78
+ Zone=       76140 Size=       30310 Proc=         139
+ Zone=       91487 Size=       18870 Proc=         126
+ Zone=       93126 Size=       18348 Proc=           5
+ Zone=       75544 Size=       26487 Proc=          23
+ Zone=       94765 Size=       19071 Proc=          44
+ Zone=       78375 Size=       16596 Proc=         134
+ Zone=       74948 Size=       25000 Proc=          67
+ Zone=       91636 Size=       21840 Proc=         115
+ Zone=      107281 Size=        9118 Proc=          80
+ Zone=       77779 Size=       31226 Proc=          18
+ Zone=       84633 Size=       15159 Proc=         152
+ Zone=      104003 Size=        9495 Proc=           2
+ Zone=      105642 Size=        9245 Proc=          41
+ Zone=       95957 Size=        9766 Proc=         116
+ Zone=       89848 Size=       19038 Proc=          87
+ Zone=      102960 Size=       16622 Proc=          79
+ Zone=       77183 Size=       29217 Proc=          62
+ Zone=       81951 Size=       24431 Proc=          30
+ Zone=       88209 Size=       18849 Proc=          48
+ Zone=       86570 Size=       18546 Proc=           9
+ Zone=      102364 Size=        9243 Proc=         123
+ Zone=       80014 Size=       16641 Proc=          13
+ Zone=       76587 Size=       22891 Proc=         106
+ Zone=       84931 Size=       17823 Proc=         130
+ Zone=       79418 Size=       32014 Proc=          57
+ Zone=       88954 Size=       24097 Proc=         153
+ Zone=      100278 Size=       18548 Proc=         117
+ Zone=       79269 Size=       33053 Proc=          68
+ Zone=       83292 Size=       17936 Proc=          91
+ Zone=      104599 Size=       18081 Proc=         118
+ Zone=       81653 Size=       16676 Proc=          52
+ Zone=       78226 Size=       21119 Proc=         145
+ Zone=      100725 Size=       10413 Proc=          84
+ Zone=       78822 Size=       30778 Proc=         101
+ Zone=       81057 Size=       30746 Proc=          96
+ Zone=       80461 Size=       31630 Proc=         140
+ Zone=      113241 Size=       10733 Proc=         120
+ Zone=       93275 Size=       24527 Proc=         154
+ Zone=       86272 Size=       15375 Proc=          31
+ Zone=       99086 Size=       11868 Proc=          45
+ Zone=       79865 Size=       20281 Proc=          24
+ Zone=       97447 Size=       13049 Proc=           6
+ Zone=       82696 Size=       29266 Proc=         135
+ Zone=       95808 Size=       15076 Proc=         127
+ Zone=      111602 Size=       12322 Proc=          81
+ Zone=       83590 Size=       27090 Proc=          69
+ Zone=       82100 Size=       31219 Proc=          19
+ Zone=      108920 Size=        9348 Proc=         119
+ Zone=       97596 Size=        9615 Proc=         155
+ Zone=       80908 Size=       32185 Proc=         107
+ Zone=       81504 Size=       17889 Proc=          63
+ Zone=      109963 Size=       13977 Proc=          42
+ Zone=       90593 Size=       25151 Proc=          32
+ Zone=      101917 Size=       19686 Proc=         156
+ Zone=       94169 Size=       17191 Proc=          88
+ Zone=       84335 Size=       28007 Proc=          14
+ Zone=      108324 Size=       15364 Proc=           3
+ Zone=       83143 Size=       15566 Proc=         102
+ Zone=       94914 Size=       26573 Proc=          33
+ Zone=       83739 Size=       31045 Proc=          58
+ Zone=       85974 Size=       27378 Proc=          53
+ Zone=      106238 Size=       19253 Proc=         157
+ Zone=       92530 Size=       19256 Proc=          49
+ Zone=       82547 Size=       31122 Proc=         146
+ Zone=       87911 Size=       14821 Proc=          70
+ Zone=       90891 Size=       21748 Proc=          10
+ Zone=      110559 Size=       10749 Proc=         158
+ Zone=       85378 Size=       31531 Proc=          97
+ Zone=      106685 Size=       18195 Proc=         124
+ Zone=       85229 Size=       29698 Proc=         108
+ Zone=       89252 Size=       23510 Proc=         131
+ Zone=       84782 Size=       14686 Proc=         141
+ Zone=      117562 Size=       14790 Proc=         121
+ Zone=       84186 Size=       30688 Proc=          25
+ Zone=       87017 Size=       30382 Proc=         136
+ Zone=      105046 Size=       20209 Proc=          85
+ Zone=       99235 Size=       12812 Proc=          34
+ Zone=       87613 Size=       25664 Proc=          92
+ Zone=       86421 Size=       16966 Proc=          20
+ Zone=      119201 Size=       12708 Proc=           0
+ Zone=       92232 Size=       26766 Proc=          71
+ Zone=      115923 Size=       17042 Proc=          82
+ Zone=      101768 Size=       23534 Proc=           7
+ Zone=      103556 Size=       20396 Proc=          35
+ Zone=      114880 Size=       12687 Proc=         159
+ Zone=      107877 Size=       19513 Proc=          36
+ Zone=      103407 Size=       22481 Proc=          46
+ Zone=       88656 Size=       31850 Proc=          15
+ Zone=       89550 Size=       14028 Proc=         109
+ Zone=       85825 Size=       31043 Proc=          64
+ Zone=      112198 Size=       12192 Proc=          37
+ Zone=       96553 Size=       27343 Proc=          72
+ Zone=      100129 Size=       25494 Proc=         128
+ Zone=       88060 Size=       18492 Proc=          59
+ Zone=       86868 Size=       32660 Proc=         147
+ Zone=      116519 Size=       13342 Proc=          38
+ Zone=       90295 Size=       30720 Proc=          54
+ Zone=      114284 Size=       17481 Proc=          43
+ Zone=      123522 Size=       12385 Proc=           1
+ Zone=      100874 Size=       14153 Proc=          73
+ Zone=      112645 Size=       19932 Proc=           4
+ Zone=       89699 Size=       20698 Proc=          98
+ Zone=       93871 Size=       27711 Proc=         110
+ Zone=      125161 Size=       12019 Proc=          40
+ Zone=       98490 Size=       26622 Proc=          89
+ Zone=       88507 Size=       34696 Proc=          26
+ Zone=      111006 Size=       20472 Proc=         125
+ Zone=       87464 Size=       30089 Proc=         103
+ Zone=       91338 Size=       21518 Proc=         137
+ Zone=       89103 Size=       30452 Proc=         142
+ Zone=       90742 Size=       27929 Proc=          21
+ Zone=       96851 Size=       28135 Proc=          50
+ Zone=       91934 Size=       31459 Proc=          93
+ Zone=       95212 Size=       29424 Proc=          11
+ Zone=      120840 Size=       13305 Proc=          39
+ Zone=      105195 Size=       20605 Proc=          74
+ Zone=      121883 Size=       13033 Proc=         122
+ Zone=       93573 Size=       30547 Proc=         132
+ Zone=       91189 Size=       13412 Proc=         148
+ Zone=      109367 Size=       22351 Proc=          86
+ Zone=       92977 Size=       23331 Proc=          16
+ Zone=       90146 Size=       34554 Proc=          65
+ Zone=       98192 Size=       29276 Proc=         111
+ Zone=      107728 Size=       22904 Proc=          47
+ Zone=      113837 Size=       14334 Proc=          76
+ Zone=       92381 Size=       27430 Proc=          60
+ Zone=      109516 Size=       20350 Proc=          75
+ Zone=      120244 Size=       14200 Proc=          83
+ Zone=      118158 Size=       12508 Proc=          77
+ Zone=      122479 Size=       13938 Proc=          78
+ Zone=       91785 Size=       34823 Proc=         104
+ Zone=      102513 Size=       16422 Proc=         112
+ Zone=      131121 Size=        4133 Proc=          80
+ Zone=      106089 Size=       25649 Proc=           8
+ Zone=       94616 Size=       24516 Proc=          55
+ Zone=       95510 Size=       28830 Proc=         149
+ Zone=       94020 Size=       25789 Proc=          99
+ Zone=       93424 Size=       33883 Proc=         143
+ Zone=      129482 Size=        5344 Proc=          41
+ Zone=       92828 Size=       18259 Proc=          27
+ Zone=      104450 Size=       26990 Proc=         129
+ Zone=       95659 Size=       24633 Proc=         138
+ Zone=      127843 Size=        6398 Proc=           2
+ Zone=      106834 Size=       20626 Proc=         113
+ Zone=      126800 Size=       11104 Proc=          79
+ Zone=       95063 Size=       34153 Proc=          22
+ Zone=       96255 Size=       25850 Proc=          94
+ Zone=      118605 Size=       14695 Proc=          44
+ Zone=      116966 Size=       15929 Proc=           5
+ Zone=       97894 Size=       27243 Proc=         133
+ Zone=      115327 Size=       15791 Proc=         126
+ Zone=      111155 Size=       20738 Proc=         114
+ Zone=       99831 Size=       29914 Proc=         150
+ Zone=      126204 Size=        7775 Proc=         123
+ Zone=      137081 Size=        6866 Proc=         120
+ Zone=       94467 Size=       19109 Proc=          66
+ Zone=      115476 Size=       15869 Proc=         115
+ Zone=      102811 Size=       27295 Proc=          90
+ Zone=       97298 Size=       22687 Proc=          17
+ Zone=      119797 Size=       12658 Proc=         116
+ Zone=      128439 Size=       11636 Proc=         118
+ Zone=      101172 Size=       27634 Proc=          51
+ Zone=       97149 Size=       27646 Proc=          28
+ Zone=      124118 Size=       13765 Proc=         117
+ Zone=       96702 Size=       32493 Proc=          61
+ Zone=      135442 Size=        8026 Proc=          81
+ Zone=       99533 Size=       27526 Proc=          12
+ Zone=      104152 Size=       17995 Proc=         151
+ Zone=       98937 Size=       21660 Proc=          56
+ Zone=       98341 Size=       33006 Proc=         100
+ Zone=       96106 Size=       21052 Proc=         105
+ Zone=      113688 Size=       15533 Proc=          87
+ Zone=      132760 Size=        5706 Proc=         119
+ Zone=      124565 Size=        9116 Proc=          84
+ Zone=      101470 Size=       30616 Proc=          29
+ Zone=      133803 Size=        9101 Proc=          42
+ Zone=      108473 Size=       19416 Proc=         152
+ Zone=       97745 Size=       22223 Proc=         144
+ Zone=      112049 Size=       14747 Proc=          48
+ Zone=      100576 Size=       20702 Proc=          95
+ Zone=       99980 Size=       32045 Proc=         139
+ Zone=      112794 Size=       22447 Proc=         153
+ Zone=      122926 Size=       10779 Proc=          45
+ Zone=      102215 Size=       18800 Proc=         134
+ Zone=      110410 Size=       14174 Proc=           9
+ Zone=       99384 Size=       23696 Proc=          23
+ Zone=      132164 Size=        9957 Proc=           3
+ Zone=      141402 Size=        8845 Proc=         121
+ Zone=      105791 Size=       20302 Proc=          30
+ Zone=      121287 Size=       12670 Proc=           6
+ Zone=       98788 Size=       28157 Proc=          67
+ Zone=      108771 Size=       11898 Proc=         130
+ Zone=      134399 Size=        5422 Proc=         158
+ Zone=      117115 Size=       17938 Proc=         154
+ Zone=      125757 Size=       14675 Proc=         156
+ Zone=      101619 Size=       30822 Proc=          18
+ Zone=      143041 Size=        7652 Proc=           0
+ Zone=      130078 Size=       12283 Proc=         157
+ Zone=      119648 Size=       14738 Proc=         127
+ Zone=      121436 Size=       11882 Proc=         155
+ Zone=      101023 Size=       24388 Proc=          62
+ Zone=      103854 Size=       18184 Proc=          13
+ Zone=      139763 Size=       11125 Proc=          82
+ Zone=      130525 Size=       12099 Proc=         124
+ Zone=      138720 Size=        9165 Proc=         159
+ Zone=      103258 Size=       31851 Proc=          57
+ Zone=      100427 Size=       27082 Proc=         106
+ Zone=      107132 Size=       13864 Proc=          91
+ maxjpu=       16229  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      110112 Size=       19758 Proc=          31
+ Zone=      103109 Size=       31647 Proc=          68
+ Zone=      105493 Size=       16185 Proc=          52
+ maxjpu=       16128  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       15917  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      114433 Size=       23147 Proc=          32
+ Zone=      118009 Size=       16920 Proc=          88
+ Zone=      147362 Size=        6242 Proc=           1
+ Zone=      118754 Size=       19163 Proc=          33
+ Zone=      128886 Size=       14129 Proc=          85
+ Zone=      136038 Size=        6317 Proc=          37
+ Zone=      140359 Size=        9369 Proc=          38
+ Zone=      102066 Size=       25134 Proc=         145
+ Zone=      104897 Size=       29884 Proc=          96
+ Zone=      102662 Size=       25783 Proc=         101
+ Zone=      131717 Size=       12917 Proc=          36
+ Zone=      104301 Size=       26642 Proc=         140
+ maxjpu=       17464  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       16193  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      106536 Size=       28814 Proc=         135
+ maxjpu=       17521  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      107430 Size=       21217 Proc=          69
+ maxjpu=       17355  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      103705 Size=       24718 Proc=          24
+ Zone=      138124 Size=       12085 Proc=          43
+ Zone=      123075 Size=       11562 Proc=          34
+ Zone=      127396 Size=       15688 Proc=          35
+ maxjpu=       17141  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      145723 Size=        6879 Proc=         122
+ Zone=      116370 Size=       20421 Proc=          49
+ Zone=      144680 Size=        8041 Proc=          39
+ Zone=      105940 Size=       27054 Proc=          19
+ Zone=      127247 Size=       16189 Proc=          46
+ Zone=      125608 Size=       18003 Proc=           7
+ Zone=      136485 Size=       13678 Proc=           4
+ Zone=      104748 Size=       32209 Proc=         107
+ Zone=      105344 Size=       22421 Proc=          63
+ Zone=      114731 Size=       22209 Proc=          10
+ Zone=      108175 Size=       27013 Proc=          14
+ Zone=      111751 Size=       18803 Proc=          70
+ Zone=      134846 Size=       14309 Proc=         125
+ Zone=      109814 Size=       27235 Proc=          53
+ maxjpu=       18858  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       18732  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      113092 Size=       25713 Proc=         131
+ maxjpu=       18615  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      107579 Size=       27255 Proc=          58
+ Zone=      106983 Size=       20583 Proc=         102
+ maxjpu=       18415  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      123969 Size=       19419 Proc=         128
+ Zone=      144084 Size=        7093 Proc=          83
+ Zone=      109218 Size=       28291 Proc=          97
+ maxjpu=       18356  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      146319 Size=        8130 Proc=          78
+ maxjpu=       18574  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       18387  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      106387 Size=       31600 Proc=         146
+ Zone=      109069 Size=       22824 Proc=         108
+ Zone=      110857 Size=       30135 Proc=         136
+ Zone=      116072 Size=       24881 Proc=          71
+ maxjpu=       18573  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      141998 Size=        9580 Proc=          77
+ Zone=      133207 Size=       14706 Proc=          86
+ Zone=      108622 Size=       17625 Proc=         141
+ Zone=      111453 Size=       26909 Proc=          92
+ Zone=      120393 Size=       20875 Proc=          72
+ maxjpu=       19858  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      137677 Size=        7206 Proc=          76
+ maxjpu=       19823  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       20010  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      108026 Size=       29065 Proc=          25
+ maxjpu=       20084  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      124714 Size=       10820 Proc=          73
+ Zone=      110261 Size=       16609 Proc=          20
+ maxjpu=       20217  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       20060  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      129035 Size=       15954 Proc=          74
+ Zone=      112496 Size=       32015 Proc=          15
+ Zone=      113390 Size=       18878 Proc=         109
+ Zone=      122330 Size=       21669 Proc=          89
+ Zone=      133356 Size=       13157 Proc=          75
+ maxjpu=       19894  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      131568 Size=       15466 Proc=          47
+ Zone=      142445 Size=        7384 Proc=          44
+ maxjpu=       19756  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      111900 Size=       15158 Proc=          59
+ Zone=      140806 Size=        7529 Proc=           5
+ Zone=      109665 Size=       29597 Proc=          64
+ Zone=      139167 Size=        4672 Proc=         126
+ Zone=      114135 Size=       31127 Proc=          54
+ Zone=      120691 Size=       23584 Proc=          50
+ maxjpu=       21332  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      117711 Size=       24118 Proc=         110
+ Zone=      129929 Size=       16643 Proc=           8
+ Zone=      113539 Size=       13812 Proc=          98
+ Zone=      110708 Size=       25359 Proc=         147
+ Zone=      115178 Size=       12663 Proc=         137
+ Zone=      147958 Size=        8221 Proc=         117
+ Zone=      119052 Size=       26939 Proc=          11
+ Zone=      143637 Size=        8979 Proc=         116
+ maxjpu=       21316  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      148405 Size=        4839 Proc=          84
+ maxjpu=       21297  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       21603  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      117413 Size=       28892 Proc=         132
+ maxjpu=       21242  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      115774 Size=       31424 Proc=          93
+ maxjpu=       21576  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       21561  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      139316 Size=        8323 Proc=         115
+ Zone=      128290 Size=       18191 Proc=         129
+ Zone=      112347 Size=       26552 Proc=          26
+ Zone=      122032 Size=       21436 Proc=         111
+ Zone=      126353 Size=       10237 Proc=         112
+ Zone=      111304 Size=       28217 Proc=         103
+ Zone=      134995 Size=       14178 Proc=         114
+ Zone=      114582 Size=       27702 Proc=          21
+ Zone=      112943 Size=       28364 Proc=         142
+ Zone=      130674 Size=       15584 Proc=         113
+ Zone=      116817 Size=       17644 Proc=          16
+ maxjpu=       21113  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      115029 Size=       18328 Proc=         148
+ maxjpu=       22618  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       22820  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      146766 Size=        6664 Proc=          45
+ Zone=      137528 Size=        5348 Proc=          87
+ maxjpu=       22622  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       22962  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       22793  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      116221 Size=       27233 Proc=          60
+ Zone=      145127 Size=        7394 Proc=           6
+ Zone=      113986 Size=       28629 Proc=          65
+ Zone=      117860 Size=       25016 Proc=          99
+ Zone=      119499 Size=       24445 Proc=         138
+ maxjpu=       23180  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       22500  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      118456 Size=       17666 Proc=          55
+ maxjpu=       23183  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      126651 Size=       18876 Proc=          90
+ Zone=      121734 Size=       18888 Proc=         133
+ Zone=      143488 Size=        8844 Proc=         127
+ Zone=      115625 Size=       29338 Proc=         104
+ Zone=      119350 Size=       25021 Proc=         149
+ Zone=      120095 Size=       19149 Proc=          94
+ Zone=      135889 Size=        6815 Proc=          48
+ maxjpu=       23930  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      125012 Size=       19856 Proc=          51
+ Zone=      121138 Size=       21403 Proc=          17
+ Zone=      123671 Size=       22579 Proc=         150
+ Zone=      117264 Size=       30202 Proc=         143
+ maxjpu=       23965  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       24311  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      116668 Size=       17823 Proc=          27
+ Zone=      118903 Size=       30050 Proc=          22
+ Zone=      134250 Size=        8041 Proc=           9
+ Zone=      145276 Size=        8951 Proc=         155
+ Zone=      136634 Size=       14805 Proc=         153
+ Zone=      123373 Size=       20146 Proc=          12
+ Zone=      140955 Size=        9061 Proc=         154
+ maxjpu=       23853  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      127992 Size=       10199 Proc=         151
+ Zone=      132611 Size=        9004 Proc=         130
+ Zone=      132313 Size=       15523 Proc=         152
+ Zone=      122777 Size=       20188 Proc=          56
+ maxjpu=       24355  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       24348  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       25332  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      141849 Size=       10893 Proc=          88
+ Zone=      123820 Size=       25462 Proc=         139
+ Zone=      124416 Size=       17729 Proc=          95
+ maxjpu=       25687  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      126055 Size=       16830 Proc=         134
+ Zone=      120989 Size=       24733 Proc=          28
+ Zone=      118307 Size=       15539 Proc=          66
+ maxjpu=       24780  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      125310 Size=       24472 Proc=          29
+ maxjpu=       24774  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      120542 Size=       28536 Proc=          61
+ maxjpu=       25226  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      122181 Size=       27314 Proc=         100
+ Zone=      142594 Size=        9637 Proc=          33
+ Zone=      125459 Size=       25758 Proc=          18
+ Zone=      129631 Size=       11334 Proc=          30
+ maxjpu=       25337  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      130972 Size=       11553 Proc=          91
+ Zone=      127694 Size=       15437 Proc=          13
+ Zone=      146915 Size=        8940 Proc=          34
+ Zone=      119946 Size=       13893 Proc=         105
+ Zone=      147809 Size=       11195 Proc=         128
+ Zone=      140210 Size=       13481 Proc=          49
+ Zone=      138273 Size=       15574 Proc=          32
+ maxjpu=       27102  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      127098 Size=       23752 Proc=          57
+ Zone=      121585 Size=       12204 Proc=         144
+ Zone=      133952 Size=       14865 Proc=          31
+ maxjpu=       25971  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       25960  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      130376 Size=       21123 Proc=         135
+ Zone=      123224 Size=       15397 Proc=          23
+ Zone=      129333 Size=       13841 Proc=          52
+ maxjpu=       27110  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       26430  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      138571 Size=       14593 Proc=          10
+ Zone=      128737 Size=       23498 Proc=          96
+ maxjpu=       26921  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       26422  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      136932 Size=       16180 Proc=         131
+ Zone=      122628 Size=       24878 Proc=          67
+ maxjpu=       26627  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      129780 Size=       17818 Proc=          19
+ Zone=      124863 Size=       16214 Proc=          62
+ Zone=      132015 Size=       18811 Proc=          14
+ maxjpu=       27627  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       28825  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      146170 Size=       14098 Proc=          89
+ Zone=      133654 Size=       18716 Proc=          53
+ Zone=      126949 Size=       24561 Proc=          68
+ Zone=      124267 Size=       22897 Proc=         106
+ Zone=      131270 Size=       11803 Proc=          69
+ Zone=      134697 Size=       18385 Proc=         136
+ maxjpu=       28624  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      133058 Size=       17831 Proc=          97
+ maxjpu=       27611  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      131419 Size=       17418 Proc=          58
+ Zone=      148554 Size=        8042 Proc=          73
+ maxjpu=       28122  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       28100  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      144233 Size=       10538 Proc=          72
+ Zone=      128141 Size=       17503 Proc=         140
+ Zone=      126502 Size=       17009 Proc=         101
+ maxjpu=       28641  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      135293 Size=       17497 Proc=          92
+ Zone=      135591 Size=       14824 Proc=          70
+ maxjpu=       28326  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      125906 Size=       23014 Proc=         145
+ Zone=      127545 Size=       21378 Proc=          24
+ Zone=      136336 Size=       18886 Proc=          15
+ Zone=      139912 Size=       15903 Proc=          71
+ Zone=      144531 Size=       15148 Proc=          50
+ maxjpu=       30468  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      142892 Size=       17449 Proc=          11
+ Zone=      128588 Size=       24848 Proc=         107
+ Zone=      139018 Size=        9628 Proc=         137
+ Zone=      129184 Size=       19819 Proc=          63
+ Zone=      141253 Size=       18704 Proc=         132
+ Zone=      130823 Size=       17110 Proc=         102
+ maxjpu=       30226  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      137975 Size=       19427 Proc=          54
+ Zone=      132909 Size=       12925 Proc=         108
+ maxjpu=       29321  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      135740 Size=       12107 Proc=          59
+ maxjpu=       29308  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      137379 Size=       10815 Proc=          98
+ maxjpu=       29855  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      139614 Size=       19576 Proc=          93
+ Zone=      137230 Size=       14273 Proc=         109
+ maxjpu=       30280  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       29976  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      134101 Size=       13462 Proc=          20
+ Zone=      140657 Size=        9010 Proc=          16
+ Zone=      130227 Size=       22563 Proc=         146
+ Zone=      132462 Size=       14651 Proc=         141
+ Zone=      141551 Size=       15942 Proc=         110
+ maxjpu=       29795  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      131866 Size=       21053 Proc=          25
+ maxjpu=       32012  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      145872 Size=       10716 Proc=         111
+ Zone=      143339 Size=       14539 Proc=         138
+ maxjpu=       31813  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      145574 Size=        5400 Proc=         133
+ maxjpu=       31840  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      141700 Size=       16390 Proc=          99
+ maxjpu=       31582  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      142296 Size=        7520 Proc=          55
+ maxjpu=       31007  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      143935 Size=        5912 Proc=          94
+ Zone=      133505 Size=       20142 Proc=          64
+ maxjpu=       33438  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      144978 Size=       13608 Proc=          17
+ maxjpu=       30993  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33701  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      147213 Size=        9132 Proc=          12
+ Zone=      138422 Size=       18454 Proc=          21
+ maxjpu=       33971  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       31549  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      134548 Size=       14082 Proc=         147
+ maxjpu=       34174  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      136187 Size=       15252 Proc=          26
+ maxjpu=       31368  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34380  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34533  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33385  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34721  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      147660 Size=       15728 Proc=         139
+ maxjpu=       33569  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      135144 Size=       19810 Proc=         103
+ maxjpu=       33790  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      138869 Size=       13957 Proc=         148
+ maxjpu=       33296  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      146617 Size=       13208 Proc=          56
+ maxjpu=       32454  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33915  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      136783 Size=       19366 Proc=         142
+ maxjpu=       33278  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34946  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34022  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33691  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      148256 Size=       10956 Proc=          95
+ maxjpu=       33018  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33573  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34020  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       32426  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34214  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      140061 Size=       18485 Proc=          60
+ maxjpu=       33501  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33824  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34388  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34229  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      147511 Size=       11442 Proc=         150
+ Zone=      143190 Size=       15367 Proc=         149
+ maxjpu=       33887  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34486  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34218  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33015  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33676  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34554  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      137826 Size=       15757 Proc=          65
+ maxjpu=       34768  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      139465 Size=       16311 Proc=         104
+ maxjpu=       32781  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      142743 Size=       15936 Proc=          22
+ maxjpu=       34525  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      140508 Size=       13903 Proc=          27
+ maxjpu=       34902  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       33881  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      141104 Size=       16226 Proc=         143
+ maxjpu=       33832  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      144829 Size=       15360 Proc=          28
+ maxjpu=       34452  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      146021 Size=       16168 Proc=         100
+ Zone=      142147 Size=       12559 Proc=          66
+ Zone=      144382 Size=       16319 Proc=          61
+ maxjpu=       34156  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       34863  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35206  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35282  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      147064 Size=        8893 Proc=          23
+ maxjpu=       35698  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35271  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      143786 Size=       10730 Proc=         105
+ maxjpu=       34980  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35346  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36067  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      145425 Size=        9679 Proc=         144
+ maxjpu=       35516  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35602  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35853  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36324  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36602  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36510  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36645  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35150  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35827  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35487  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      146468 Size=       15615 Proc=          67
+ Zone=      148703 Size=        7095 Proc=          62
+ maxjpu=       36166  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36303  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36342  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36556  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35300  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36682  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35933  nbzonnull=           0  %=  0.000000000000000E+000
+ Zone=      148107 Size=       13801 Proc=         106
+ maxjpu=       36953  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       37223  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36849  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       35871  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36583  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36820  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       37130  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36506  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36388  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       37233  nbzonnull=           0  %=  0.000000000000000E+000
+ maxjpu=       36749  nbzonnull=           0  %=  0.000000000000000E+000
+ --> Computation of (Xa,Pa) ...
+ Memory part number :            1 /         160
+
+
+          Process Rank      |Elapsed time (sec.)|CPU Time (sec.)
+          ------------------|-------------------|----------------
+             0              |     426.069       |     416.434
+             1              |     426.019       |     420.198
+             2              |     426.019       |     419.927
+             3              |     426.020       |     420.014
+             4              |     426.018       |     420.109
+             5              |     426.020       |     419.629
+             6              |     426.020       |     420.020
+             7              |     426.003       |     419.931
+             8              |     426.006       |     420.074
+             9              |     426.019       |     420.130
+            10              |     426.019       |     419.917
+            11              |     426.019       |     419.507
+            12              |     426.018       |     419.991
+            13              |     426.017       |     420.021
+            14              |     426.017       |     420.066
+            15              |     426.019       |     419.878
+            16              |     426.009       |     419.972
+            17              |     426.019       |     419.922
+            18              |     426.015       |     420.005
+            19              |     426.019       |     419.547
+            20              |     426.019       |     420.050
+            21              |     426.018       |     420.202
+            22              |     426.018       |     419.762
+            23              |     426.014       |     420.137
+            24              |     426.017       |     417.486
+            25              |     426.014       |     418.294
+            26              |     426.019       |     418.204
+            27              |     426.017       |     418.134
+            28              |     426.019       |     418.241
+            29              |     426.018       |     418.437
+            30              |     426.019       |     418.234
+            31              |     426.020       |     418.333
+            32              |     426.018       |     418.012
+            33              |     426.019       |     418.439
+            34              |     426.018       |     418.227
+            35              |     426.019       |     418.325
+            36              |     426.018       |     417.979
+            37              |     426.020       |     418.189
+            38              |     426.019       |     418.213
+            39              |     426.019       |     417.836
+            40              |     425.989       |     414.825
+            41              |     426.016       |     417.831
+            42              |     426.017       |     417.859
+            43              |     426.018       |     417.444
+            44              |     426.017       |     417.803
+            45              |     426.018       |     418.397
+            46              |     426.018       |     417.992
+            47              |     426.017       |     419.894
+            48              |     426.018       |     419.774
+            49              |     426.014       |     420.171
+            50              |     426.016       |     419.545
+            51              |     426.016       |     418.587
+            52              |     426.018       |     418.191
+            53              |     426.010       |     417.984
+            54              |     426.019       |     418.203
+            55              |     426.018       |     418.296
+            56              |     425.977       |     418.220
+            57              |     426.019       |     418.226
+            58              |     426.019       |     418.220
+            59              |     426.018       |     418.113
+            60              |     426.019       |     418.304
+            61              |     426.020       |     418.387
+            62              |     426.021       |     418.430
+            63              |     426.019       |     418.301
+            64              |     426.021       |     418.272
+            65              |     426.019       |     418.240
+            66              |     426.021       |     417.574
+            67              |     426.020       |     418.176
+            68              |     426.019       |     418.385
+            69              |     426.021       |     418.263
+            70              |     426.020       |     419.206
+            71              |     426.020       |     419.372
+            72              |     426.022       |     419.210
+            73              |     426.021       |     419.081
+            74              |     426.020       |     418.945
+            75              |     426.020       |     418.190
+            76              |     426.021       |     418.214
+            77              |     426.019       |     418.173
+            78              |     426.019       |     418.406
+            79              |     426.021       |     418.300
+            80              |     425.985       |     416.815
+            81              |     426.011       |     418.142
+            82              |     426.010       |     418.180
+            83              |     426.011       |     418.171
+            84              |     426.011       |     418.083
+            85              |     426.012       |     418.025
+            86              |     426.007       |     418.167
+            87              |     426.011       |     417.087
+            88              |     426.010       |     418.045
+            89              |     426.010       |     417.994
+            90              |     426.011       |     418.250
+            91              |     426.010       |     417.959
+            92              |     425.986       |     416.882
+            93              |     426.011       |     419.197
+            94              |     426.010       |     419.140
+            95              |     426.009       |     418.891
+            96              |     426.010       |     419.001
+            97              |     426.011       |     418.509
+            98              |     426.011       |     417.730
+            99              |     426.010       |     417.250
+           100              |     426.018       |     417.479
+           101              |     426.019       |     416.037
+           102              |     426.017       |     416.859
+           103              |     426.017       |     415.915
+           104              |     426.016       |     417.265
+           105              |     426.018       |     417.404
+           106              |     426.017       |     417.262
+           107              |     426.017       |     416.892
+           108              |     426.016       |     417.433
+           109              |     426.018       |     417.500
+           110              |     426.016       |     417.503
+           111              |     426.016       |     417.236
+           112              |     426.018       |     417.030
+           113              |     426.016       |     416.991
+           114              |     426.016       |     417.227
+           115              |     426.017       |     417.221
+           116              |     426.017       |     416.403
+           117              |     426.017       |     418.494
+           118              |     426.016       |     418.198
+           119              |     426.018       |     418.514
+           120              |     426.016       |     415.351
+           121              |     426.019       |     416.790
+           122              |     426.019       |     416.685
+           123              |     426.019       |     416.489
+           124              |     426.018       |     416.580
+           125              |     426.019       |     417.043
+           126              |     426.018       |     416.429
+           127              |     426.020       |     416.625
+           128              |     426.010       |     416.872
+           129              |     426.019       |     416.584
+           130              |     426.019       |     416.870
+           131              |     426.018       |     416.473
+           132              |     426.018       |     416.925
+           133              |     426.019       |     416.499
+           134              |     426.020       |     416.892
+           135              |     426.018       |     416.737
+           136              |     426.018       |     416.834
+           137              |     426.018       |     416.971
+           138              |     426.019       |     416.667
+           139              |     425.982       |     416.359
+           140              |     426.022       |     418.860
+           141              |     426.021       |     418.332
+           142              |     426.023       |     418.305
+           143              |     426.020       |     418.401
+           144              |     426.021       |     418.473
+           145              |     426.022       |     418.610
+           146              |     426.022       |     418.252
+           147              |     426.002       |     418.740
+           148              |     426.022       |     418.713
+           149              |     426.017       |     418.287
+           150              |     426.021       |     418.755
+           151              |     426.020       |     418.743
+           152              |     426.021       |     418.577
+           153              |     426.022       |     418.608
+           154              |     426.022       |     418.548
+           155              |     426.022       |     418.494
+           156              |     426.014       |     418.531
+           157              |     426.021       |     418.357
+           158              |     426.020       |     418.438
+           159              |     426.022       |     418.549
+          ------------------|-------------------|----------------
+          Total time (sec.) |   68162.642       |   66910.655
+          ------------------|-------------------|----------------
+          Min.  time (sec.) |     425.977       |     414.825
+          ------------------|-------------------|----------------
+          Max.  time (sec.) |     426.069       |     420.202
+          ------------------|-------------------|----------------
+          Avg.  time (sec.) |     426.017       |     418.192
+          ------------------|-------------------|----------------
+
+

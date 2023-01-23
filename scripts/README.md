@@ -80,7 +80,7 @@ Each script performs one task on the data. They must be run successively to perf
 
  * <i>diag_phenology_prior.bash</i>: Diagnose phenology for the prior ensemble.
 
- * <i>diag_qunatiles_phenology.bash</i>: Compute quantiles for phenology for the updated ensemble.
+ * <i>diag_quantiles_phenology.bash</i>: Compute quantiles for phenology for the updated ensemble.
 
- * <i>diag_qunatiles_phenology_prior.bash</i>: Compute quantiles for phenology for the prior ensemble.
+ * <i>diag_quantiles_phenology_prior.bash</i>: Compute quantiles for phenology for the prior ensemble.
 
